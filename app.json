@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "TAYD",
+    "slug": "tayd",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.8",
+    "orientation": "portrait",
+    "icon": "./assets/ic_launcher.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "android": {
+      "package": "com.tayd.taydApp",
+      "versionCode": 8,
+      "permissions": ["CAMERA", "ACCESS_FINE_LOCATION"],
+      "useNextNotificationsApi": true,
+      "splash": {
+        "mdpi": "./assets/splash/splash-port-mdpi.png",
+        "hdpi": "./assets/splash/splash-port-hdpi.png",
+        "xhdpi": "./assets/splash/splash-port-xhdpi.png",
+        "xxhdpi": "./assets/splash/splash-port-xxhdpi.png",
+        "xxxhdpi": "./assets/splash/splash-port-xxxhdpi.png",
+        "resizeMode": "contain"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyA8qjUbL-Zbv1pWZS9TBRD1QbdTM5_GsII"
+        }
+      }
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.tayd.taydApp",
+      "buildNumber": "1.0.8",
+      "splash": {
+        "image": "./assets/splash/splash.png",
+        "resizeMode": "contain"
+      },
+      "infoPlist": {
+        "NSCameraUsageDescription": "Esta aplicación utiliza la cámara para escanear documentos solicitados.",
+        "NSLocationWhenInUseUsageDescription": "Esta aplicación utiliza tu ubicación para seleccionar tu inmueble en el mapa."
+      }
+    },
+    "packagerOpts": {
+
+    },
+    "description": "App de solicitud de servicios de limpieza."
+  }
+}
